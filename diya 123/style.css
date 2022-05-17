@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;600;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+
+*{margin:0px;padding:0px;}
+section {
+    padding:80px;
+    overflow: hidden;
+    background: #999;
+    margin-bottom: -28px;}
+body{
+	font-family: 'Work Sans', sans-serif;
+	font-size:16px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Oswald', sans-serif;
+	font-weight:600px;
+} 
+.container {
+    width: 1100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+header#header{
+    min-height: 100vh;
+    background: linear-gradient(#000000d1,#0000009e),url(img/IMG20220509104946-01-01.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+nav {
+    padding-top: 25px;
+}
+.logoTitle {
+    width: 172px;
+    float: left;
+}
+.nav-button {
+    width: 350px;
+    float: right;
+}
+nav a {
+    font-size: 19px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #9efff8;
+}
+nav a i {
+    font-size: 32px;
+    color: #FB5201;
+}
+.nav-button ul li{
+    list-style: none;
+    float: left;
+    margin-left: 17px;
+}
+.nav-button ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    font-weight: unset;
+    transition: 0.2s;
+}
+.nav-button ul li:hover a {
+    color: #fb5200;
+    border-bottom: 2px solid #fff;
+}
+.textBox{
+    width: 99%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.textBox a i {
+    color: #fb5200;
+}
+.textBox a:hover i {
+    color: #fff;
+    margin-left: 15px;
+    font-size: 17px;
+}
+.textBox h1{
+    font-size: 50px;
+}
+.textBox p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #cfcaca;
+}
+.button{
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fb5200; 
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  border-radius:5px;
+  transition: 0.3s;
+}
+.button:hover{
+   background: #fb5200; 
+   border: 1px solid #fff;
+
+}
+/* ------------------course------------- */
+.cours {
+    text-align: center;
+}
+section#courseSection {
+    background: #d1daaff2;
+    overflow: hidden;
+}
+.title {
+    text-align: center;
+}
+.title h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+.singleBox {
+    width: 310px;
+    float: left;
+    text-align: center;
+    margin-left: 33px;
+    background: #202f36;
+    padding: 12px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.singleBox:first-child {
+    margin-left: 0px;
+}
+.box {
+    margin-top: 47px;
+}
+.singleBox h3 {
+    font-weight: 600;
+    color: #fff;
+    margin: 10px 0;
+}
+.aboutTitle {
+    margin-bottom: 4rem;
+}
+.aboutRight {
+    width: 429px;
+    float: left;
+    text-align: left;
+    margin-top: 5rem;
+    margin-left: 300px;
+}
+.singleBox p {
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #999;
+}
+.singleBox:hover {
+    width: 300px;
+}
+.boxImg img {
+    border-radius: 10px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.singleBox:hover {
+    box-shadow: 0 0 21px 4px #08e4e6;
+}
+.imgTitle {
+    margin-top: -46px;
+}
+.title h1:after {
+    content: "";
+    position: absolute;
+    margin-top: 55px;width: 398px;
+    border-bottom: 3px solid #FF5200;
+    left: 41%;
+    transform: translate(-70px);
+}
+.singleBox.fcailities:hover {
+    box-shadow: none;
+}
+.singleBox.fcailities:hover img {
+    width: 333px;
+    transition: 0.5s;
+}
+.singleBox.fcailities.tast:hover h3 {
+    border-bottom: 2px solid #fb5200;
+    transition: 0.5s;
+}
+.singleBox.fcailities.tast h3 {
+    border-bottom: 2px solid #36e8fc;
+    transition: 0.5s;
+}
+.singleBox.fcailities.tast {
+    text-align: left;
+    height: 360px;}
+.singleBox.fcailities p {
+    font-size: 14px;
+    color: #b4b4b4;
+}
+.singleBoxFcailities {
+    width: 413px;
+    float: left;
+    padding: 24px 28px;
+    background: #e1dddd8c;
+    margin-left: 46px;
+}
+.boxImg1 img {
+    width: 55px;
+    border-radius: 45% 20%;
+}
+.boxImg1 {
+    float: left;
+}
+.boxDes {
+    width: 296px;
+    float: left;
+    margin-left: 14px;}
+.boxDes p {
+    font-size: 13px;
+    color: #524f4f;
+}
+.boxDes h3 {
+    font-size: 20px;
+    color: #4b4b4b;
+}
+.boxDes i {
+    font-size: 13px;
+    padding-top: 3px;
+    color: #fb5200;
+}
+footer {
+    text-align: center;
+    margin-top: 28px;
+    background: #999;}
+.footerCont {
+    background: #272626;
+    border-radius: 7px;
+}
+footer h4 {
+    font-size: 28px;
+    margin-bottom: 13px;
+    padding-top: 24px;color: #fff;}
+footer p {
+    margin: 0px 70px;
+    color: #d2d2d2c2;font-size: 14px;
+}
+.webSocIcon {
+    margin-top: 30px;
+    border-bottom: 2px solid #dedede;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+footer i {
+    color: #fb5200;
+}
+.webSocIcon i {
+    margin-left: 24px;
+    margin-bottom: 10px;
+}
+.copy {
+    overflow: hidden;
+    padding: 10px 0px 16px 0px;
+}
+.copyrLeft {
+    color: #999;
+    width: 360px;
+    font-size: 12px;
+    float: left;
+}
+.copyright {
+    color: #999
+    ;font-size: 11px;
+    width: 400px;
+    float: right;
+}
+.webSocIcon i {
+    cursor: pointer;
+}
+.webSocIcon i:hover {
+    color: #01ff10;
+}
+.webSocIcon i span{
+    color: #01ff10;
+}
+.webSocIcon i span:hover{
+    color: #fb5200;
+}
+
+
+
+/* nav.fa{
+    display: none;
+} */
+
+/*********************start now responsive design ****************/
+@media(max-width:800px){
+    
+    .textBox h1{
+        font-size: 40px;
+    }
+    .nav-button ul li{
+        display: block;
+        float: none;
+        margin-top: 18px;
+    }
+    .nav-button {
+        position: absolute;
+        background:#f44336;
+        height: 100vh;
+        width: 150px;
+        top:0;
+        right:0;
+        text-align: left;
+        z-index: 2;
+    }
+    nav .fa{
+        display: block;
+        color: #fff;
+        margin: 11px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-button .open{
+        display: none;
+    }
+    .nav-button ul {
+        padding: 30px;
+    }
+    .nav-button ul li:hover a{
+        color: #000;
+    }
+    .singleBox{
+        float: none;
+    }
+}
